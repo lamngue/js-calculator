@@ -1,0 +1,36 @@
+.calculator{
+    margin-top: 20px;
+    background-color:#3d4543;
+    height:300px;
+    width:250px;
+    border-radius:10px;
+    position:relative;
+    margin: auto;
+}
+.calculator-screen{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 20px;
+    border-top:2px #303030 solid;
+}
+#AC{
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+#screen{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#screen{
+    border: 2px solid red;
+}
+table{
+    width: 200px;
+}

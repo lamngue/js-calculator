@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center">CALCULATOR</h1>
+    <div class="calculator">
+        <div class="calculator-screen">
+            <input type="text" id="screen" disabled />
+            <input value ="AC" id="AC" type="button" class="text-center btn btn-danger btn-block" />
+            <table class="buttons" style="border-spacing: 20px;" align="center">
+                <tr>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="one" value="1"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="two" value="2"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="three" value="3"></td>
+                    <td><input type="button" class="btn  btn-block btn-secondary" name="plus" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="four" value="4"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="five" value="5"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="six" value="6"></td>
+                    <td><input type="button" class="btn  btn-block btn-secondary" name="minus" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="seven" value="7"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="eight" value="8"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="nine" value="9"></td>
+                    <td><input type="button" class="btn  btn-block btn-secondary" name="multiply" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input id="delete" type="button" class="btn  btn-block btn-primary" name="delete" value="C"></td>
+                    <td><input type="button" class="btn  btn-block btn-primary" name="zero" value="0"></td>
+                    <td><input id="equal" class="btn  btn-block btn-success" type="button" name="equal" value="="></td>
+                    <td><input type="button" class="btn  btn-block btn-secondary" name="divide" value="/"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
